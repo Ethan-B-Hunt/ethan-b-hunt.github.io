@@ -1,7 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Shadows+Into+Light&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -9,6 +7,7 @@
 nav a{
     text-align:center;
     text-decoration:none;
+    padding:35px;
 }
 #hero-msg h1, #hero h4{
     text-align:center;
@@ -24,7 +23,11 @@ main section{
     background-color: #8ecae6;
 }
 body{
-    background-color: #8ecae6;
+    background-color: white;
+    font-family: 'Roboto:ital', Times, serif;
+    font-size:22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #fffc99;
@@ -33,23 +36,36 @@ nav a:hover{
     background-color: #8ecae6;
 }
 .book, .join{
+    background-color: #219ebc ;
     text-decoration:none;
+    font-size: 18px;
+    padding:15px 30px;
+    margin-top:50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
-    background-color: #8ecae6;
+    background-color: #fffc99;
 }
 .msg{
     background-color: #8ecae6;
+    font-family: 'Roboto:ital', Times, serif;
+    line-height:1.5em;
+    padding: 35px;
 }
 footer{
     background-color: #fffc99;
-    text-decoration:underline;
+    padding:25px 50px;
+    margin-top: 200px;
 }
 footer a{
     text-decoration:none;
 }
+footer .social img{
+    padding-top:15px;
+}
 .icon{
     width: 80px;
+    padding-top:10px;
 }
 .logo{
     width: 80px;
@@ -57,9 +73,29 @@ footer a{
 #hero-img{
     width:100%;
 }
-h3{
+footer h3 a:hover{
     text-decoration:underline;
 }
-a:hover{
-    text-decoration:underline;
+.home-title{
+    font-family: 'Shadows Into Light', Times, serif;
+    font-size:2em;
+    margin-top:10px;
+}
+h2{
+    font-family: 'Shadows Into Light', Times, serif;
+}
+.msg p{
+    padding-bottom: 35px;
+}
+#logo_link{
+    padding-top:5px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border:10px solid black;
+}
+main section img{
+    box-sizing:border-box;
 }
