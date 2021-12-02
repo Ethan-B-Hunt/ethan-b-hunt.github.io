@@ -1,0 +1,27 @@
+.bode{
+    width:300px;
+}
+.week{
+    color:green;
+}
+.text{
+    padding: 22px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+.contaner{
+    display: flex;
+    background-color: steelblue;
+    color: white;
+}
+.q2031{
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+}
+.q15, .q5th, .q2031{
+    flex: 33%;
+    text-align: center;
+}
