@@ -91,7 +91,7 @@ footer .social img{
     width: 80px;
 }
 #hero-img{
-    width:150%;
+    width:100%;
 }
 #hero{
     display:grid;
@@ -202,5 +202,69 @@ main section img{
     footer {
         margin-top: 25px;
     }
+}
+
+
+
+
+
+
+
+
+
+#top-msg h1, #top h4{
+    text-align:center;
+    color: white;
+    font-size:4em;
+    color:black;
+}
+.top-title{
+    font-family: 'Shadows Into Light', Times, serif;
+    font-size:2em;
+    margin-top:10px;
+}
+#top-msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top:100px;
+}
+#top-img{
+    width:100%;
+    height: 80%;
+}
+#top{
+    display:grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin:-100px;
+}
+#top-box{
+    grid-column:1/4;
+    grid-row:1/3;
+    z-index: -1;
+}
+.page_2-grid{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.msg p{
+    padding-bottom: 35px;
+}
+.main_for, .grand_canyon, .rapids-card{
+    margin: 200px 0;
+}
+.river_wide-img{
+    width: 100%;
+}
+.top-title {
+    font-size: 25px;
+    color: #6f7364;
+}
+.little_colorado-img, .red_wall-img{
+    width: 100%;
+    margin-left: -15%;
+    margin-right: -15%;
+}
+.card-img{
+    width: 100%;
 }
             
