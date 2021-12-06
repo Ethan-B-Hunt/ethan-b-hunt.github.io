@@ -110,3 +110,19 @@ h2{
     }
 }
             
+
+/*page 3*/
+
+#grid_all{
+display:grid;
+    grid-template-columns:1, 1fr;
+    align-items: center;
+    justify-content: center;
+}
+.author_img{
+    width: 100px;
+    padding-bottom: 120px;
+}
+.brandon_sanderson{
+    padding-top: 100px;
+}

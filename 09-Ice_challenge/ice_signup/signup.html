@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <header>
+        <h1>Sign up</h1>
+        <p>there is some text here, but im not really aable to read it very well</p>
+    </header>
+    <main id="grid_all">
+        <div class="img_div">
+            <img class="img" src="/ice_signup/img.jpeg" >
+        </div>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+             <li>
+               <label for="name">Name:</label>
+               <input type="text" id="name" name="user_name">
+             </li>
+             <li>
+               <label for="mail">E-mail:</label>
+               <input type="email" id="mail" name="user_email">
+             </li>
+
+             <li class="button">
+                <button type="submit">Send your message</button>
+              </li>
+            </ul>
+            <div id="feedback"></div>
+        </form>
+    </main>
+</body>
+</html>
