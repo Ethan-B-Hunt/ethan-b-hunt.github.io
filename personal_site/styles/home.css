@@ -110,19 +110,145 @@ h2{
     }
 }
             
+/*page 2*/
+.grid_em_all{
+    padding-top:170px;
+    margin-left: 180px;
+    display: grid;
+    grid-template-columns:250px 250px 250px 250px;
+    grid-template-rows: 200px 200px 200px 200px 200px 200px 200px;
+    justify-content: center;
+    align-items: center;
+}
+#img_all{
+    margin-bottom: 200px;
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*page 3*/
-
-#grid_all{
-display:grid;
-    grid-template-columns:1, 1fr;
-    align-items: center;
-    justify-content: center;
-}
 .author_img{
     width: 100px;
     padding-bottom: 120px;
 }
 .brandon_sanderson{
-    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#bb4430;
+    height: 200px;
+    margin-top: 100px;
+}
+.author_img{
+    margin-top: 120px;
+}
+.brandon_link{
+    margin-left: 33px;
+}
+.scott_westerfield{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#bb4430;
+    height: 200px;
+    margin-top: 100px;
+}
+.scott_link{
+    margin-left: 33px;
+}
+.michael_sulivan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#bb4430;
+    height: 200px;
+    margin-top: 100px;
+}
+.michael_link{
+    margin-left: 33px;
+}
+.china_mieville{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#bb4430;
+    height: 200px;
+    margin-top: 100px;
+}
+.china_link{
+    margin-left: 33px;
+}
+.brian_mcclellan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#bb4430;
+    height: 200px;
+    margin-top: 100px;
+}
+.brian_mcclellan_link{
+    margin-left: 33px;
+}
+.jim_butcher{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#bb4430;
+    height: 200px;
+    margin-top: 100px;
+}
+.jim_butcher_link{
+    margin-left: 33px;
+}
+.guy_gavriel_kay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#bb4430;
+    height: 200px;
+    margin-top: 100px;
+}
+.guy_kay_link{
+    margin-left: 33px;
+}
+.rachel_aaron{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#bb4430;
+    height: 200px;
+    margin-top: 100px;
+}
+.rachel_link{
+    margin-left: 33px;
+}
+.brent_weeks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#bb4430;
+    height: 200px;
+    margin-top: 100px;
+}
+.brent_weeks_link{
+    margin-left: 33px;
 }
