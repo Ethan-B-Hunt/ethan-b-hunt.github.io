@@ -12,7 +12,9 @@ nav a{
     color:#fed766;
     border-left:6px solid black;
     border-right: 6px solid black;
+    
 }
+
 h1{
     color: #0b4f6c;
     margin-left: 150px;
@@ -64,6 +66,7 @@ footer{
 }
 footer .social img{
     padding-top:15px;
+    box-shadow: 1px 7px black;
 }
 .logo{
     width: 80px;
@@ -146,9 +149,11 @@ h2{
     border:11px solid black;
     border-radius: 12px;
 }
-
 .book_authors{
     color:#0b4f6c;
+}
+#img_all:hover{
+    opacity: .4;
 }
 
 
